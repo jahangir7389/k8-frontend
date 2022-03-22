@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: kahootali/node-frontend:batch8
+        image: jahangir7389/frontend_project_2:sha-db9c070
         env:
         - name: BACKEND_URL
           value: backend:8080
